@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#0B1020">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="MIRAL"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Your Urdu-first AI assistant"
+        android:textColor="#AAB6D3"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="السلام علیکم! میں میرال ہوں۔"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/commandInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="اپنا پیغام لکھیں..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9AA6C2"
+        android:singleLine="false"
+        android:minHeight="56dp"
+        android:padding="14dp"
+        android:backgroundTint="#91A7FF"
+        android:inputType="textCapSentences|textMultiLine" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/micButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="🎙 Speak to MIRAL" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="MVP preview: voice input, Urdu-friendly replies, and a few safe phone commands. Internet AI and wider phone control are added in later stages."
+        android:textColor="#AAB6D3"
+        android:textSize="12sp"
+        android:gravity="center" />
+</LinearLayout>
