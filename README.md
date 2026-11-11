@@ -1,1 +1,1 @@
-# MIRAL-_AI
+MIRAL AI project
