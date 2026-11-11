@@ -1,18 +1,17 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
 
-MIRAL-AI/
-│
-├── .github/
-│   └── workflows/
-│       └── build.yml
-│
-├── app/
-│   ├── build.gradle.kts
-│   └── src/
-│       └── main/
-│           ├── AndroidManifest.xml
-│           ├── java/
-│           └── res/
-│
-├── build.gradle.kts
-├── settings.gradle.kts
-└── gradle.properties
+android {
+    namespace = "com.miral.ai"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.miral.ai"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "0.1"
+    }
+}
