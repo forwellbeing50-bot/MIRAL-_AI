@@ -7,6 +7,11 @@ android {
     namespace = "com.miral.ai"
     compileSdk = 35
 
+    buildFeatures {
+        androidResources = true
+        buildConfig = true
+    }
+
     defaultConfig {
         applicationId = "com.miral.ai"
         minSdk = 23
