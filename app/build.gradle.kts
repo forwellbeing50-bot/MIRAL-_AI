@@ -8,7 +8,6 @@ android {
     compileSdk = 35
 
     buildFeatures {
-        androidResources = true
         buildConfig = true
     }
 
