@@ -1,18 +1,17 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
+android {
+    namespace = "com.miral.ai"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.miral.ai"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
     }
 }
-
-rootProject.name = "MIRAL_AI"
-include(":app")
