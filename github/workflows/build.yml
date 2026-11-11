@@ -1,1 +1,18 @@
 
+MIRAL-AI/
+│
+├── .github/
+│   └── workflows/
+│       └── build.yml
+│
+├── app/
+│   ├── build.gradle.kts
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           ├── java/
+│           └── res/
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+└── gradle.properties
