@@ -1,4 +1,4 @@
-package com.miral
+package com.miral.ai
 
 import android.app.Activity
 import android.os.Bundle
