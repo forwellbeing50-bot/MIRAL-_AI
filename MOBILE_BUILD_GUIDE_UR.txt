@@ -1,0 +1,21 @@
+MIRAL AI - Mobile Cloud Build Guide
+
+یہ project GitHub Actions کے ذریعے cloud میں APK بنا سکتا ہے۔ کمپیوٹر کی ضرورت نہیں، مگر GitHub account اور browser درکار ہیں۔
+
+1) GitHub پر account بنائیں یا sign in کریں۔
+2) New repository بنائیں، نام MIRAL-AI رکھیں، اور اسے Public یا Private رکھ سکتے ہیں۔
+3) اس ZIP کو اپنے فون میں extract کریں۔
+4) GitHub repository میں Add file > Upload files کھولیں۔
+5) ZIP کے اندر موجود تمام files اور folders upload کریں۔ ZIP خود upload نہ کریں؛ اندر کا project upload کریں۔
+6) Commit changes کریں۔
+7) repository میں Actions tab کھولیں۔
+8) "Build MIRAL APK" workflow منتخب کریں اور Run workflow دبائیں۔
+9) build مکمل ہونے پر run کھولیں، Artifacts میں MIRAL-debug-APK download کریں۔
+10) ZIP artifact extract کریں؛ app-debug.apk ملے گی۔ اسے اپنے فون پر install کریں۔ Android اگر اجازت مانگے تو صرف اسی APK کے لیے install permission دیں۔
+
+نوٹ:
+- یہ debug/test APK ہے، Play Store release نہیں۔
+- اس ابتدائی ورژن میں live AI API شامل نہیں۔
+- Voice recognition/TTS کی Urdu support فون میں نصب speech services پر منحصر ہے۔
+- WhatsApp، calls، notifications، always-on listening اور وسیع phone control ابھی شامل نہیں۔
+- API keys کبھی GitHub repository یا app source code میں نہ ڈالیں۔
